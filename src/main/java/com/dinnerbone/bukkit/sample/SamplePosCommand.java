@@ -11,7 +11,7 @@ import org.bukkit.entity.Player;
  * Handler for the /pos sample command.
  * @author SpaceManiac
  */
-public class SamplePosCommand implements CommandExecutor {
+public class SamplePosCommand implements CommandExecutor { //lol POS command
     public boolean onCommand(CommandSender sender, Command command, String label, String[] split) {
         if (!(sender instanceof Player)) {
             return false;
